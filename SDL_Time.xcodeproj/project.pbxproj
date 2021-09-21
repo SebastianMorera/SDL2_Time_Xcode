@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD06BF9C26E80752005D7853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD06BF9B26E80752005D7853 /* AppDelegate.m */; };
 		CD06BF9E26E80753005D7853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD06BF9D26E80753005D7853 /* Assets.xcassets */; };
-		CD06BFA126E80753005D7853 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD06BF9F26E80753005D7853 /* MainMenu.xib */; };
-		CD06BFA426E80753005D7853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD06BFA326E80753005D7853 /* main.m */; };
+		CD06BFB426E80800005D7853 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CD06BFB326E80800005D7853 /* main.c */; };
+		CD06BFB726E80874005D7853 /* zozor.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CD06BFB626E80874005D7853 /* zozor.bmp */; };
+		CD06BFB926E808BC005D7853 /* caisse.ico in Resources */ = {isa = PBXBuildFile; fileRef = CD06BFB826E808BC005D7853 /* caisse.ico */; };
+		CD15FD7126E9083F0023C7C0 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD06BFAC26E807B8005D7853 /* SDL2.framework */; };
+		CD15FD7226E9083F0023C7C0 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD06BFAC26E807B8005D7853 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDD5029D26EA56180014DE06 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD5029C26EA56180014DE06 /* SDL2_ttf.framework */; };
+		CDD5029F26EA57E70014DE06 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD5029E26EA57E70014DE06 /* SDL2_image.framework */; };
+		CDD502A226EA5E8C0014DE06 /* angelina.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CDD502A126EA5E8C0014DE06 /* angelina.TTF */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD06BFAF26E807B9005D7853 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD15FD7226E9083F0023C7C0 /* SDL2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD06BF9726E80752005D7853 /* SDL_Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL_Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD06BF9A26E80752005D7853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD06BF9B26E80752005D7853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD06BF9D26E80753005D7853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD06BFA026E80753005D7853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD06BFA226E80753005D7853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD06BFA326E80753005D7853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD06BFA526E80753005D7853 /* SDL_Time.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDL_Time.entitlements; sourceTree = "<group>"; };
+		CD06BFAC26E807B8005D7853 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		CD06BFB326E80800005D7853 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CD06BFB626E80874005D7853 /* zozor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = zozor.bmp; sourceTree = "<group>"; };
+		CD06BFB826E808BC005D7853 /* caisse.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = caisse.ico; sourceTree = "<group>"; };
+		CDD5029C26EA56180014DE06 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
+		CDD5029E26EA57E70014DE06 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
+		CDD502A126EA5E8C0014DE06 /* angelina.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = angelina.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD5029F26EA57E70014DE06 /* SDL2_image.framework in Frameworks */,
+				CD15FD7126E9083F0023C7C0 /* SDL2.framework in Frameworks */,
+				CDD5029D26EA56180014DE06 /* SDL2_ttf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +63,11 @@
 		CD06BF8E26E80752005D7853 = {
 			isa = PBXGroup;
 			children = (
+				CDD502A026EA5D390014DE06 /* Polices */,
+				CD06BFB526E80846005D7853 /* Images */,
 				CD06BF9926E80752005D7853 /* SDL_Time */,
 				CD06BF9826E80752005D7853 /* Products */,
+				CD06BFAB26E807B8005D7853 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,15 +82,39 @@
 		CD06BF9926E80752005D7853 /* SDL_Time */ = {
 			isa = PBXGroup;
 			children = (
-				CD06BF9A26E80752005D7853 /* AppDelegate.h */,
-				CD06BF9B26E80752005D7853 /* AppDelegate.m */,
 				CD06BF9D26E80753005D7853 /* Assets.xcassets */,
-				CD06BF9F26E80753005D7853 /* MainMenu.xib */,
 				CD06BFA226E80753005D7853 /* Info.plist */,
-				CD06BFA326E80753005D7853 /* main.m */,
 				CD06BFA526E80753005D7853 /* SDL_Time.entitlements */,
+				CD06BFB326E80800005D7853 /* main.c */,
 			);
 			path = SDL_Time;
+			sourceTree = "<group>";
+		};
+		CD06BFAB26E807B8005D7853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5029C26EA56180014DE06 /* SDL2_ttf.framework */,
+				CDD5029E26EA57E70014DE06 /* SDL2_image.framework */,
+				CD06BFAC26E807B8005D7853 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD06BFB526E80846005D7853 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD06BFB826E808BC005D7853 /* caisse.ico */,
+				CD06BFB626E80874005D7853 /* zozor.bmp */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CDD502A026EA5D390014DE06 /* Polices */ = {
+			isa = PBXGroup;
+			children = (
+				CDD502A126EA5E8C0014DE06 /* angelina.TTF */,
+			);
+			path = Polices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +127,7 @@
 				CD06BF9326E80752005D7853 /* Sources */,
 				CD06BF9426E80752005D7853 /* Frameworks */,
 				CD06BF9526E80752005D7853 /* Resources */,
+				CD06BFAF26E807B9005D7853 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,8 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD06BFB726E80874005D7853 /* zozor.bmp in Resources */,
+				CD06BFB926E808BC005D7853 /* caisse.ico in Resources */,
 				CD06BF9E26E80753005D7853 /* Assets.xcassets in Resources */,
-				CD06BFA126E80753005D7853 /* MainMenu.xib in Resources */,
+				CDD502A226EA5E8C0014DE06 /* angelina.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD06BFA426E80753005D7853 /* main.m in Sources */,
-				CD06BF9C26E80752005D7853 /* AppDelegate.m in Sources */,
+				CD06BFB426E80800005D7853 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CD06BF9F26E80753005D7853 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD06BFA026E80753005D7853 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD06BFA626E80753005D7853 /* Debug */ = {
@@ -268,16 +311,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_ENTITLEMENTS = SDL_Time/SDL_Time.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDL_Time/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sebastian-Morera.SDL-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -286,16 +339,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_ENTITLEMENTS = SDL_Time/SDL_Time.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDL_Time/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sebastian-Morera.SDL-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
